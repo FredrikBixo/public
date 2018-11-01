@@ -44,7 +44,7 @@ class WebApplication {
 
 Which of the following statements is (are) true?
 
-- [ ] `StudentsDatabase` is the model, `StudentsManager` is the controller, and `WebApplication` is the the view.
+- [ x ] `StudentsDatabase` is the model, `StudentsManager` is the controller, and `WebApplication` is the the view.
 - [ ] `StudentsDatabase` is the model, `StudentsManager` is the view, and `WebApplication` is the controller.
 - [ ] `StudentsManager` is the model, `StudentsDatabase` is the view, and `StudentsManager` is the controller.
 - [ ] This is not MVC, because `StudentsManager` must use a listener to be notified when the database changes.
@@ -53,10 +53,10 @@ Which of the following statements is (are) true?
 
 Which of the following are true about the strategy pattern?
 
-- [ ] The strategy pattern uses aggregation instead of inheritance in order to avoid code duplication
-- [ ] The strategy pattern requires to settle for a particular implementation of an algorithm at compile time
+- [ x ] The strategy pattern uses aggregation instead of inheritance in order to avoid code duplication
+- [ x ] The strategy pattern requires to settle for a particular implementation of an algorithm at compile time
 - [ ] It is possible for a class to implement multiple unrelated strategies to be used in different contexts
-- [ ] The strategy pattern requires a field of the desired strategy interface to be present in the class that wants to use the strategy
+- [ x ] The strategy pattern requires a field of the desired strategy interface to be present in the class that wants to use the strategy
 
 ### Question 3
 Consider the following implementation of an iterator for a custom list class, based on the standard Java's `ArrayList` implementation.
@@ -122,8 +122,8 @@ public class TestList {
 ```
 
 - [ ] Iterating over a list of 10,000 elements takes twice as much time as iterating over a list of 5,000 elements
-- [ ] Iterating over a list of 10,000 elements takes four times as much time as iterating over a list of 5,000 elements
-- [ ] Determining if the iterator reached the end of the list takes a fixed amount of time on each iteration in the `next()` method
+- [ x ] Iterating over a list of 10,000 elements takes four times as much time as iterating over a list of 5,000 elements
+- [ x ] Determining if the iterator reached the end of the list takes a fixed amount of time on each iteration in the `next()` method
 - [ ] Accessing the item at the current position of the iterator takes a fixed amount of time
 
 <a name="practice"></a>
