@@ -195,6 +195,7 @@ public class SwEngMidtermResultsBoard  implements Observable {
 
     public void setMessage(String message) {
         this.message = message;
+        this.notifyObservers();
     }
 
     public String getMessage() {
@@ -204,6 +205,7 @@ public class SwEngMidtermResultsBoard  implements Observable {
     @Override
     public void addObserver(Observer observer) {
         System.out.println("Adding an observer!");
+        observer.add(observer)
     }
 
     @Override
@@ -215,6 +217,7 @@ public class SwEngMidtermResultsBoard  implements Observable {
     public void notifyObservers() {
         for (Observer observer: this.observers) {
             System.out.println("Notification starts!");
+            this.observer.update();
         }
     }
 }
